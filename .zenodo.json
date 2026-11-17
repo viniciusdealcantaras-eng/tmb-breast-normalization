@@ -1,0 +1,12 @@
+{
+  "title": "Reproducibility code: Platform normalization and a null expectation as preconditions for reanalyzing tumor mutational burden in breast cancer (cBioPortal)",
+  "description": "Python code to reproduce the analyses of the manuscript \"Platform Normalization and a Null Expectation as Preconditions for Reanalyzing Tumor Mutational Burden: A Reassessment of 3381 Breast Cancer Samples from Public Genomic Cohorts\" (IJERPH, manuscript ijerph-4617917). The code downloads public data from cBioPortal (brca_tcga_pan_can_atlas_2018, breast_msk_2018, brca_mbcproject_2022). No patient-level data are included.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "de Alcantara Sousa, Luiz Vinicius", "affiliation": "Centro Universitário FMABC", "orcid": "0000-0002-6895-4914"},
+    {"name": "Cubero, Daniel I. G.", "affiliation": "Centro Universitário FMABC"},
+    {"name": "Del Giglio, Auro", "affiliation": "Centro Universitário FMABC"}
+  ],
+  "keywords": ["tumor mutational burden", "breast cancer", "cBioPortal", "platform normalization", "reproducibility"]
+}

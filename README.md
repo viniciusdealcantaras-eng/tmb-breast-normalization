@@ -54,7 +54,7 @@ python run_all.py                 # scripts 02 to 09, results go to results/
 
 - The extraction was checked against a new download of the three studies (November 2026): sample and patient counts, nonsynonymous mutation counts per sample, receptor subtype, sample type, survival data and gene-level counts were identical to those used in the paper.
 
-- The random draws (script 04) and the bootstrap (script 07) use a fixed seed. Percentiles may differ in the second decimal from the manuscript if another seed is used.
+- The random draws (script 04) and the bootstrap (script 07) use a fixed seed, and the manuscript reports the values obtained with it. Another seed may change percentiles in the second decimal.
 - The gene-length correlation (script 09) depends on the Ensembl release used for coding-sequence lengths.
 
 ## Software
